@@ -1,4 +1,4 @@
-# Project Recipes
+# Project Odin Recipes
 
 A simple Project about Recipes
 

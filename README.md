@@ -40,8 +40,29 @@ A Recipe Page of my favorite foods.
 ### What I learned
 
 This challenge will help me focus on writing semantic HTML.
+How to use a image background inside of a div.
+Centralize a content in the middle of screen.
 
-
+```css
+.container {
+  background-image: url('your-image-source.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%; /* adjust as needed */
+  height: 500px; /* adjust as needed */
+}
+```
+```css{
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+```
+}
 ### Continued development
 
 Enchance CSS for mobile first

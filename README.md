@@ -66,6 +66,7 @@ Centralize a content in the middle of screen.
 ### Continued development
 
 Enchance CSS for mobile first
+Convert to tailwindCSS
 
 
 ### Useful resources

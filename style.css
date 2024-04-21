@@ -1,5 +1,6 @@
 body {
     font-size: 16px;
+    
 }
 h1 {
     font-size: xx-large;
@@ -24,6 +25,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .food-description {
     margin: 30px 0;

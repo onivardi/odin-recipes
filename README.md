@@ -33,8 +33,7 @@ A Recipe Page of my favorite foods.
 ### Built with
 
 - Semantic HTML5 markup
-- CSS 
-- Flexbox
+- Tainwind CSS
 
 
 ### What I learned
@@ -65,14 +64,12 @@ Centralize a content in the middle of screen.
 }
 ### Continued development
 
-Enchance CSS for mobile first
-Convert to tailwindCSS
 
 
 ### Useful resources
 
 - [resource 1](https://www.allrecipes.com/) - This helped me find the recipes.
-
+- [resource 2](https://tailwindcss.com/) - Docs of tailwind
 
 ## Author
 

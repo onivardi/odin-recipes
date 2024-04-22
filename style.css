@@ -17,9 +17,14 @@ li::marker {
 }
 li {
     padding-top: 10px;
+    
 }
 h3 {
+    font-size: x-large;
     color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .prep-time-list {

@@ -15,6 +15,10 @@
     p {
         @apply font-outfit;
         @apply text-wengeBrown;
-        @apply font-normal
+        @apply font-normal;
+    }
+
+    span {
+        @apply font-bold;
     }
 }

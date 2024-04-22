@@ -464,6 +464,10 @@ p {
   font-weight: 400;
 }
 
+span {
+  font-weight: 700;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -581,6 +585,10 @@ p {
   margin-bottom: 2rem;
 }
 
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -593,13 +601,30 @@ p {
   width: 100%;
 }
 
+.list-disc {
+  list-style-type: disc;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .justify-center {
   justify-content: center;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .bg-eggShell {
   --tw-bg-opacity: 1;
   background-color: hsl(30 54% 90% / var(--tw-bg-opacity));
+}
+
+.bg-roseWhite {
+  --tw-bg-opacity: 1;
+  background-color: hsl(330 100% 98% / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -612,9 +637,25 @@ p {
      object-fit: cover;
 }
 
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-0 {
+  padding: 0px;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .align-middle {
@@ -624,4 +665,18 @@ p {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-secondary {
+  --tw-text-opacity: 1;
+  color: hsl(332 51% 32% / var(--tw-text-opacity));
 }

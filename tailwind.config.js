@@ -13,8 +13,8 @@ module.exports = {
         'darkCharcoal': 'hsl(24, 5%, 18%)',
       },
       fontFamily: {
-        young: ["Young Serif", serif],
-        outfit: ["Outfit", sans - serif]
+        young: ['Young Serif', 'serif'],
+        outfit: ['Outfit', 'sans-serif']
       }
     },
   },

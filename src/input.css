@@ -6,4 +6,15 @@
     body {
         @apply text-base;
     }
+
+    h1 {
+        @apply font-young;
+        @apply text-darkCharcoal;
+    }
+
+    p {
+        @apply font-outfit;
+        @apply text-wengeBrown;
+        @apply font-normal
+    }
 }

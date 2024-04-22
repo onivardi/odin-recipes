@@ -20,7 +20,7 @@ A Recipe Page of my favorite foods.
 
 ### Screenshot
 
-![](../odin-recipes/preview/mobile-design.jpg)
+![](../odin-recipes/preview/mobile-design.jpg?raw=true)
 
 ### Links
 

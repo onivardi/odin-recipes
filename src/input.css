@@ -27,4 +27,12 @@
     span {
         @apply font-bold;
     }
+
+    td {
+        @apply py-3;
+        @apply pl-7
+    }
+    tr {
+        @apply border-b
+    }
 }

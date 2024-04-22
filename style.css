@@ -1,28 +1,5 @@
-body {
-    font-size: 16px;
-    
-}
 
-h4, span {
-    font-weight: bold;   
-}
-span {
-    padding-left: 10px;
-}
-li::marker {
-    color: hsl(332, 51%, 32%);
-}
-li {
-    padding-top: 10px;
-    
-}
-h3 {
-    font-size: x-large;
-    color: hsl(14, 45%, 36%);
-    font-family: "Young Serif", serif;
-    font-weight: 400;
-    font-style: normal;
-}
+
 
 .prep-time-list {
     padding-left: 25px;

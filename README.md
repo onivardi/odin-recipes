@@ -2,7 +2,6 @@
 
 A Recipe Page of my favorite foods.
 
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -21,8 +20,7 @@ A Recipe Page of my favorite foods.
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![](../odin-recipes/preview/mobile-design.jpg)
 
 ### Links
 
@@ -33,38 +31,78 @@ A Recipe Page of my favorite foods.
 ### Built with
 
 - Semantic HTML5 markup
-- Tainwind CSS
-
+- Tailwind CSS
 
 ### What I learned
 
-This challenge will help me focus on writing semantic HTML.
-How to use a image background inside of a div.
-Centralize a content in the middle of screen.
+This challenge will help me focus on Tailwind CSS.
+How to use @apply to use a base style to project.
+How to write custom configuration
 
-```css
-.container {
-  background-image: url('your-image-source.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 100%; /* adjust as needed */
-  height: 500px; /* adjust as needed */
-}
+```javascript
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: "hsl(14, 45%, 36%)",
+        secondary: "hsl(332, 51%, 32%)",
+        roseWhite: "hsl(330, 100%, 98%)",
+        eggShell: "hsl(30, 54%, 90%)",
+        lightGrey: "hsl(30, 18%, 87%)",
+        wengeBrown: "hsl(30, 10%, 34%)",
+        darkCharcoal: "hsl(24, 5%, 18%)",
+      },
+      fontFamily: {
+        young: ["Young Serif", "serif"],
+        outfit: ["Outfit", "sans-serif"],
+      },
+    },
+  },
+  plugins: [],
+};
 ```
+
 ```css{
-.center-screen {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-}
+@layer base {
+    body {
+        @apply text-base;
+    }
+
+    h1 {
+        @apply font-young;
+        @apply text-darkCharcoal;
+        @apply text-4xl;
+    }
+    h2 {
+        @apply font-young;
+        @apply text-primary;
+        @apply text-3xl;
+    }
+
+    p {
+        @apply font-outfit;
+        @apply text-wengeBrown;
+        @apply font-normal;
+    }
+
+    span {
+        @apply font-bold;
+    }
+
+    td {
+        @apply py-3;
+        @apply pl-7
+    }
+    tr {
+        @apply border-b
+    }
 ```
+
 }
+
 ### Continued development
-
-
 
 ### Useful resources
 
@@ -75,4 +113,3 @@ Centralize a content in the middle of screen.
 
 - Website - [Valdeir Rodrigues](https://www.your-site.com)
 - Twitter - [@VardiRdg](https://twitter.com/VardiRdg)
-

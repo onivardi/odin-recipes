@@ -446,6 +446,11 @@ video {
   display: none;
 }
 
+body {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -586,17 +591,4 @@ video {
   .container {
     max-width: 1536px;
   }
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
-.underline {
-  text-decoration-line: underline;
 }
